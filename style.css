@@ -5,11 +5,6 @@
     margin: 0;
 }
 
-body {
-    /* background-color: #12144e; */
-    /* background: radial-gradient(#12144e, #010223); */
-}
-
 .content_b1 {
     background: radial-gradient(#12144e, #010223);
 }
@@ -25,31 +20,38 @@ body {
     grid-template-columns: 700px repeat(5, auto) ;
     padding-top: 30px;
     padding-bottom: 15px;
-    /* padding-right: 100px; */
     font-family: inter;
-    background-color: transparent;
-    position: fixed;
-    z-index: 10;
 }
 
 .item {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .item_1 {
-    font-size: 25px;
+    display: grid;
+    grid-template-columns: 42px 122px;
+    font-size: 22px;
+    font-weight: 1000;
+    align-items: center;
+}
+
+.item_2 {
     text-decoration: underline;
-    color: yellow;
+    color: blue;
     font-weight: 1000;
 }
 
+.ft_img_h {
+    width: 34px;
+    height: 34px;
+}
+
 .aircraft {
-height: 400px;
-display: flex;
-padding-left: 90px;   
-align-items: center;
-padding-top: 60px;
+    height: 400px;
+    display: flex;
+    padding-left: 90px;   
+    align-items: center;
 }
 
 .text_aircraft_b {
@@ -61,7 +63,7 @@ padding-top: 60px;
 }
 
 .text_aircraft_t {
-    color: white;
+    color: #A7A7A7;
     text-align: center;
     font-family: inter;
     font-size: 12px;
@@ -71,15 +73,12 @@ padding-top: 60px;
 .economy {
     display: grid;
     padding-left: 100px;
-    /* background-color: white; */
     grid-template-columns: 173px 173px 173px;
-    /* max-width: 100px; */
 }
 
 .economy_text {
     background-color: blue;
     color: white;
-    /* text-align: center; */
     border-top-left-radius: 20px;
     font-family: Montserrat;
     font-size: 18px;
@@ -115,7 +114,6 @@ padding-top: 60px;
 .economy {
     display: grid;
     padding-left: 100px;
-    /* background-color: white; */
     grid-template-columns: 173px 173px 173px;
     height: 50px;
 }
@@ -162,7 +160,6 @@ padding-top: 60px;
     font-family: Montserrat;
     display: flex;
     padding-left: 10px;
-    /* padding-top: 0px; */
 }
 
 .travelers {
@@ -230,9 +227,7 @@ padding-top: 60px;
 .guide, .discount, .private, .support {
     display: grid;
     width: 282px;
-    /* background-color: white; */
     background: linear-gradient(#f5f5ff, white);
-    /* justify-content: center; */
     padding-top: 28px;
     border-radius: 150px;
     grid-template-rows: 86px 56px 128px 50px;
@@ -368,7 +363,6 @@ padding-top: 60px;
 }
 
 .fly_text {
-    /* display: flex; */
     width: 560px;
     height: 456px;
     padding-left: 120px;
@@ -462,16 +456,14 @@ padding-top: 60px;
     display: flex;
     height: 454px;
     background-image: url(image/map_bottom.png);
-    /* max-width: 1400px; */
 }
 
 .copyright {
-    display: flex;
+    display: grid;
     color: black;
     height: 266px;
     padding-left: 120px;
     padding-top: 100px;
-    /* padding-bottom: 40px; */
 }
 
 .copyright_h {
@@ -560,4 +552,16 @@ padding-top: 60px;
 .about_grid, .support_grid{
     display: grid;
     grid-template-rows: 46px repeat(5, 1fr);
+}
+
+.copyright_b {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.copyright_text {
+    color: #A7A7A7;
+    font-family: Montserrat;
+    font-size: 14px;
 }
