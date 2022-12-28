@@ -6,7 +6,16 @@
 }
 
 body {
-    background-color: #12144e;
+    /* background-color: #12144e; */
+    /* background: radial-gradient(#12144e, #010223); */
+}
+
+.content_b1 {
+    background: radial-gradient(#12144e, #010223);
+}
+
+.content_b2 {
+    background-color: #f5f5ff;
 }
 
 .head {
@@ -49,7 +58,6 @@ padding-top: 60px;
     font-size: 26px;
     font-weight: bold;
     color: white;
-
 }
 
 .text_aircraft_t {
@@ -71,11 +79,14 @@ padding-top: 60px;
 .economy_text {
     background-color: blue;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     border-top-left-radius: 20px;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .busninnes_text {
@@ -84,6 +95,9 @@ padding-top: 60px;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .first_text {
@@ -93,6 +107,9 @@ padding-top: 60px;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .economy {
@@ -108,6 +125,7 @@ padding-top: 60px;
     padding-left: 100px;
     max-width: 1200px;
     height: 216px;
+    padding-bottom: 10px;
 }
 
 .location {
@@ -171,7 +189,7 @@ padding-top: 60px;
 
 .button_location {
     border-radius: 30px;
-    background-color: blue;
+    background-color: #313ef7;
     color: white;
     text-align: center;
     width: 200px;
@@ -188,3 +206,358 @@ padding-top: 60px;
     transform: translate(0px, 9px);
 }
 
+.container_4 {
+    padding-bottom: 100px;
+}
+
+.feauters {
+    color: #050831;
+    font-family: Montserrat;
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feauters_border {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    height: 380px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.guide, .discount, .private, .support {
+    display: grid;
+    width: 282px;
+    /* background-color: white; */
+    background: linear-gradient(#f5f5ff, white);
+    /* justify-content: center; */
+    padding-top: 28px;
+    border-radius: 150px;
+    grid-template-rows: 86px 56px 128px 50px;
+}
+
+.guide_img_back, .discount_img_back, .private_img_back, .support_img_back {
+    display: flex;
+    justify-content: center;
+}
+
+.guide_img, .discount_img, .private_img, .support_img {
+    background-color: #c7c8d432;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.guide_icon, .discount_icon, .private_icon, .support_icon {
+    width: 40px;
+    height: 40px;
+    transform: translate(16px, 15px);
+}
+
+.guide_text_b, .discount_text_b, .private_text_b, .support_text_b {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.guide_text_t, .discount_text_t, .private_text_t, .support_text_t {
+    display: flex;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+
+.arrow_img_back {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.arrow_img {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.container_5 {
+    display: grid;
+    height: 456px;
+    width: 1200px;
+    grid-template-columns: 560px 560px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.fly_img {
+    display: flex;
+    width: 560px;
+    height: 456px;
+}
+
+.new_york_big {
+    width: 305px;
+    height: 445px;
+    display: flex;
+    transform: translate(-350px, 0px);
+    z-index: 1;
+}
+
+.new_york_small {
+    display: flex;
+    width: 200px;
+    height: 285px;
+    transform: translate(-100px, 0px);
+    z-index: 2;
+}
+
+.new_york_small_s {
+    display: flex;
+    width: 182px;
+    height: 255px;
+    transform: translate(100px, 200px);
+    z-index: 2;
+}
+
+.clouds {
+    transform: translate(370px, 10px);
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+}
+
+.star {
+    display: flex;
+    background: linear-gradient(#f5f5ff, white);
+    width: 82px;
+    height: 40px;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 20px;
+    padding-right: 10px;
+    transform: translate(-330px, 100px);
+}
+
+.star_img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
+}
+
+.star_text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ticket {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    z-index: 3;
+    transform: translate(100px, 290px);
+}
+
+.fly_text {
+    /* display: flex; */
+    width: 560px;
+    height: 456px;
+    padding-left: 120px;
+}
+
+.fly_text_border_h {
+    display: grid;
+    grid-template-rows: 10px 10px;
+    max-height: 130px;
+}
+
+.l_f {
+    display: flex;
+    width: 90px;
+    color: blue;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.fly_text_h {
+    display: flex;
+    padding-left: 100px;
+}
+
+.l_f_b {
+    display: flex;
+    padding-top: 16px;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.fly_text_a {
+    display: flex;
+    align-items: center;
+}
+
+.fly_text_m {
+    transform: translate(4px, 50px);
+}
+
+.fly_text_i {
+    display: flex;  
+    position: absolute;
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+    float: left;
+    border-radius: 20px;
+}
+
+.fly_text_c {
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.fly_text_border_m {
+    display: grid;
+    grid-template-rows: 28px 36px 56px 50px;
+    padding-bottom: 40px;
+}
+
+.fly_text_border_b {
+    display: flex;
+}
+
+.fly_text_button {
+    border-radius: 30px;
+    background-color: #313ef7;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 56px;
+    text-decoration: none;
+}
+
+.fly_text_button_t {
+    display: flex;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: bolder;
+    transform: translate(0px, 9px);
+    justify-content: center;
+}
+
+.container_6 {
+    display: flex;
+    height: 454px;
+    background-image: url(image/map_bottom.png);
+    /* max-width: 1400px; */
+}
+
+.copyright {
+    display: flex;
+    color: black;
+    height: 266px;
+    padding-left: 120px;
+    padding-top: 100px;
+    /* padding-bottom: 40px; */
+}
+
+.copyright_h {
+    display: grid;
+    grid-template-columns: 500px 265px 305px 230px;
+}
+
+.copyright_hll {
+    display: flex;
+    width: 100px;
+    height: 230px;
+}
+
+.copyright_hl {
+    display: flex;
+    width: 130px;
+    height: 230px;
+}
+
+.copyright_hrr {
+    display: flex;
+    width: 105px;
+    height: 190px;
+}
+
+.copyright_hr {
+    display: flex;
+    color: white;
+    width: 300px;
+    height: 220px;
+}
+
+.ft_img {
+    width: 34px;
+    height: 34px;
+}
+
+.ft_text_h {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    height: 28px;
+    width: 122px;
+    font-family: Montserrat;
+    font-weight: 1000;
+    font-size: 22px;
+}
+
+.ft_text_m {
+    transform: translate(-33px, 0px);
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #A7A7A7;
+}
+
+.ft_text_grid {
+    display: grid;
+    grid-template-rows: 60px 100px ;
+}
+
+.social {
+    display: flex;
+    width: 160px;
+    height: 70px;
+    transform: translate(-55px, 0px);
+}
+
+.adres_b, .about_b, .support_b {
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.adres_t, .about_t, .support_t {
+    color: #A7A7A7;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.adres_grid {
+    display: grid;
+    grid-template-rows: 46px repeat(4, 1fr);
+}
+
+.about_grid, .support_grid{
+    display: grid;
+    grid-template-rows: 46px repeat(5, 1fr);
+}
